@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		221AE7CA1D3DA8AF0050FCD3 /* BucketList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 221AE7C81D3DA8AF0050FCD3 /* BucketList.xcdatamodeld */; };
+		221AE7CD1D3DB2F50050FCD3 /* Mission+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221AE7CB1D3DB2F50050FCD3 /* Mission+CoreDataProperties.swift */; };
+		221AE7CE1D3DB2F50050FCD3 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221AE7CC1D3DB2F50050FCD3 /* Mission.swift */; };
 		22DA6DC81D36E5D5004B6521 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DA6DC71D36E5D5004B6521 /* AppDelegate.swift */; };
-		22DA6DCA1D36E5D5004B6521 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DA6DC91D36E5D5004B6521 /* ViewController.swift */; };
+		22DA6DCA1D36E5D5004B6521 /* BucketListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DA6DC91D36E5D5004B6521 /* BucketListViewController.swift */; };
 		22DA6DCD1D36E5D5004B6521 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22DA6DCB1D36E5D5004B6521 /* Main.storyboard */; };
 		22DA6DCF1D36E5D5004B6521 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22DA6DCE1D36E5D5004B6521 /* Assets.xcassets */; };
 		22DA6DD21D36E5D5004B6521 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22DA6DD01D36E5D5004B6521 /* LaunchScreen.storyboard */; };
 		22DA6DDD1D36E5D5004B6521 /* Bucket_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DA6DDC1D36E5D5004B6521 /* Bucket_ListTests.swift */; };
 		22DA6DE81D36E5D5004B6521 /* Bucket_ListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DA6DE71D36E5D5004B6521 /* Bucket_ListUITests.swift */; };
+		22DA6DF61D3700C1004B6521 /* MissionDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DA6DF51D3700C1004B6521 /* MissionDetailsViewController.swift */; };
+		22DA6DF81D377B6C004B6521 /* CancelButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DA6DF71D377B6C004B6521 /* CancelButtonDelegate.swift */; };
+		22DA6DFA1D378552004B6521 /* MissionDetailsViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DA6DF91D378552004B6521 /* MissionDetailsViewControllerDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		221AE7C91D3DA8AF0050FCD3 /* BucketList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BucketList.xcdatamodel; sourceTree = "<group>"; };
+		221AE7CB1D3DB2F50050FCD3 /* Mission+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Mission+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		221AE7CC1D3DB2F50050FCD3 /* Mission.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 		22DA6DC41D36E5D5004B6521 /* Bucket List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bucket List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22DA6DC71D36E5D5004B6521 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		22DA6DC91D36E5D5004B6521 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22DA6DC91D36E5D5004B6521 /* BucketListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListViewController.swift; sourceTree = "<group>"; };
 		22DA6DCC1D36E5D5004B6521 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22DA6DCE1D36E5D5004B6521 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22DA6DD11D36E5D5004B6521 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +56,9 @@
 		22DA6DE31D36E5D5004B6521 /* Bucket ListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bucket ListUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22DA6DE71D36E5D5004B6521 /* Bucket_ListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bucket_ListUITests.swift; sourceTree = "<group>"; };
 		22DA6DE91D36E5D5004B6521 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22DA6DF51D3700C1004B6521 /* MissionDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissionDetailsViewController.swift; sourceTree = "<group>"; };
+		22DA6DF71D377B6C004B6521 /* CancelButtonDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelButtonDelegate.swift; sourceTree = "<group>"; };
+		22DA6DF91D378552004B6521 /* MissionDetailsViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissionDetailsViewControllerDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +89,8 @@
 		22DA6DBB1D36E5D5004B6521 = {
 			isa = PBXGroup;
 			children = (
+				221AE7CB1D3DB2F50050FCD3 /* Mission+CoreDataProperties.swift */,
+				221AE7CC1D3DB2F50050FCD3 /* Mission.swift */,
 				22DA6DC61D36E5D5004B6521 /* Bucket List */,
 				22DA6DDB1D36E5D5004B6521 /* Bucket ListTests */,
 				22DA6DE61D36E5D5004B6521 /* Bucket ListUITests */,
@@ -98,11 +112,15 @@
 			isa = PBXGroup;
 			children = (
 				22DA6DC71D36E5D5004B6521 /* AppDelegate.swift */,
-				22DA6DC91D36E5D5004B6521 /* ViewController.swift */,
+				221AE7C81D3DA8AF0050FCD3 /* BucketList.xcdatamodeld */,
+				22DA6DC91D36E5D5004B6521 /* BucketListViewController.swift */,
+				22DA6DF51D3700C1004B6521 /* MissionDetailsViewController.swift */,
 				22DA6DCB1D36E5D5004B6521 /* Main.storyboard */,
 				22DA6DCE1D36E5D5004B6521 /* Assets.xcassets */,
 				22DA6DD01D36E5D5004B6521 /* LaunchScreen.storyboard */,
 				22DA6DD31D36E5D5004B6521 /* Info.plist */,
+				22DA6DF71D377B6C004B6521 /* CancelButtonDelegate.swift */,
+				22DA6DF91D378552004B6521 /* MissionDetailsViewControllerDelegate.swift */,
 			);
 			path = "Bucket List";
 			sourceTree = "<group>";
@@ -256,8 +274,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22DA6DCA1D36E5D5004B6521 /* ViewController.swift in Sources */,
+				22DA6DCA1D36E5D5004B6521 /* BucketListViewController.swift in Sources */,
+				221AE7CA1D3DA8AF0050FCD3 /* BucketList.xcdatamodeld in Sources */,
+				221AE7CE1D3DB2F50050FCD3 /* Mission.swift in Sources */,
+				22DA6DFA1D378552004B6521 /* MissionDetailsViewControllerDelegate.swift in Sources */,
+				22DA6DF61D3700C1004B6521 /* MissionDetailsViewController.swift in Sources */,
+				22DA6DF81D377B6C004B6521 /* CancelButtonDelegate.swift in Sources */,
 				22DA6DC81D36E5D5004B6521 /* AppDelegate.swift in Sources */,
+				221AE7CD1D3DB2F50050FCD3 /* Mission+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +506,7 @@
 				22DA6DEE1D36E5D5004B6521 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22DA6DEF1D36E5D5004B6521 /* Build configuration list for PBXNativeTarget "Bucket ListTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +515,7 @@
 				22DA6DF11D36E5D5004B6521 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22DA6DF21D36E5D5004B6521 /* Build configuration list for PBXNativeTarget "Bucket ListUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,8 +524,22 @@
 				22DA6DF41D36E5D5004B6521 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		221AE7C81D3DA8AF0050FCD3 /* BucketList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				221AE7C91D3DA8AF0050FCD3 /* BucketList.xcdatamodel */,
+			);
+			currentVersion = 221AE7C91D3DA8AF0050FCD3 /* BucketList.xcdatamodel */;
+			path = BucketList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 22DA6DBC1D36E5D5004B6521 /* Project object */;
 }
